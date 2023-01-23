@@ -1,0 +1,35 @@
+@media (max-width: 1600px) {
+    .main {
+        width:70%;
+    }
+    #nombre, #contacto {
+        left:15%;
+    }
+    #modo {
+        right: 15%;
+    }
+}
+@media (max-width: 1200px) {
+    .main {
+        width:80%;
+    }
+    #nombre, #contacto {
+        left:10%;
+    }
+    #modo {
+        right:10%;
+    }
+  }
+@media (max-width: 800px) {
+    .main {
+        width:90%;
+    }
+    .databox{
+        width:70%;
+    }
+    .responsivebox {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+      }
+}

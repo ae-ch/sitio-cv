@@ -1,0 +1,171 @@
+/* LISTA DE COLORES rgb()
+**
+** rgb(36,195,195) (turqueza oscuro)
+** rgb(114,207,207) (turqueza claro)
+** rgb(85, 85, 85) (gris oscuro)
+**
+**/
+
+/* LAYOUT GENERAL */
+body{
+    background-color: black;
+    background-image: url(../assets/foggy-birds.png);
+    background-size:  250px;
+    margin:  0;
+    padding: 0;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150%;
+    color:white;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap:wrap;
+
+    width:50%;
+    background-color: black;
+    margin: 0 auto;
+    padding: 60px 0 10px 0;
+}
+
+.header, .footer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    height:35px;
+    background-color: black;
+    margin:0 auto;
+    padding:10px 0;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.header{
+    top:0;
+
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.inactive{
+    display:none;
+}
+
+/* Contenedor de datos */
+.databox{
+    width:85%; 
+    background-color: black;
+    margin:5px 0 5px 0;
+    border-left: solid 10px rgb(36,195,195);
+    border-right: solid 10px rgb(36,195,195);
+    padding:25px;
+    
+    color:rgb(85, 85, 85);
+
+    transition: 0.5s;
+}
+
+.databox:hover{
+    background-color: rgb(85, 85, 85, 0.3);
+    border-left: solid 10px rgb(114,207,207);
+    border-right: solid 10px rgb(114,207,207);
+    color:white;
+}   
+
+/* Contenedor grid */
+.responsivebox{
+    display: grid;
+    gap: 25px;
+}
+
+/* Títulos */
+h1, h2{
+    font-variant: small-caps;
+    white-space: wrap;
+}
+h1 {
+    color:rgb(36,195,195);
+}
+
+/* Listas */
+ul{
+    list-style: "✦";
+}
+li{
+    margin-left:5px;
+    padding-left:10px;
+}
+
+dt{
+    font-weight: bold;
+    padding-left:20px;
+    font-variant: small-caps;
+}
+dd{
+    border-left: 3px solid rgb(85, 85, 85);
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+/* Botones */
+button{
+    cursor:pointer;
+    display: inline-block;
+    
+    width:35px;
+    height:35px;
+    border-radius: 100%;
+    border: none;
+    
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header button:hover{
+    border:2px solid gray;
+}
+
+#contacto button{
+    background-color: inherit;
+
+    border: 2px solid gray;
+
+    color:gray;
+}
+#contacto button:hover{
+    border:2px solid rgb(114,207,207);
+
+    color:white;
+}
+
+/* Elementos con estilos y posiciones ligados a IDs */
+#dark{
+    background-color: black;
+    color:white;
+}
+#light{
+    background-color: white;
+    color:gray;
+}
+#nombre, #modo{
+    display:block;
+    position:absolute;
+}
+#nombre{
+    left:26%;
+}
+#modo{
+    right:26%;
+}
+#contacto section{
+    display: inline-block;
+    margin: 5px;
+}

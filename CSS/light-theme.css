@@ -1,0 +1,43 @@
+/* LISTA DE COLORES rbg()
+**
+** rgb(32,165,165) (turqueza oscuro)
+** rgb(85, 85, 85) (gris oscuro)
+** rgb(190, 190, 190) (gris)
+**
+**/
+
+.light-theme{
+    background-color: rgb(32,165,165);
+    color:gray;
+}
+
+.light-theme .main{
+    background-color: white;
+}
+
+.light-theme .header, .light-theme .footer{
+    background-color: rgb(85, 85, 85);
+    color:white;
+}
+
+.light-theme #contacto button{
+    border: 2px solid gray;
+    color:inherit;
+}
+.light-theme #contacto button:hover{
+    border: 2px solid rgb(32,165,165);
+    color:black;
+}
+
+.light-theme .databox{
+    color:gray;
+    background-color: rgba(190, 190, 190, 0.5);
+}
+.light-theme .databox:hover{
+    color:rgb(85, 85, 85);
+    background-color: rgba(190, 190, 190, 0.2);
+}
+
+.light-theme dd{
+    border-left: 3px solid rgb(32,165,165);
+}
