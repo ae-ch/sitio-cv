@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/default-theme.css">
+    <link rel="stylesheet" type="text/css" href="CSS/light-theme.css">
+    <link rel="stylesheet" type="text/css" href="CSS/autoadjust.css">
+    <!--Datos de página-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Soledad Martinez</title>
+</head>
+<body>
+    <div class="header">
+        <span id="nombre">
+            Soledad Martinez
+        </span>
+        <span id="modo"> 
+            <button id="dark" class="inactive">☽</button>
+            <button id="light">☼</button>
+        </span>
+    </div>
+    <div class="main">
+        <div class="databox">
+           <div class="responsivebox" style="grid-template-columns: 25% 65%;">  
+            <!--Imagen de Perfil-->    
+                <div>
+                    <img src="assets/foto perfil.jpeg" 
+                    style="max-width: 100%;">
+                </div>
+            <!--Datos Principales-->
+                <div>
+                    <h1>Soledad Martinez</h1>
+                    <h2>Fotografía y Diseño Gráfico</h2>
+                    <h3>30 años, Argentina</h3>
+                    <p>Sobre mí: proactiva, autogestiva, autodidacta, siempre buscando la belleza en todas las cosas y en todas las personas.</p>
+                    
+                    <div id="contacto">
+                        <!--Botones interactivos-->
+                        <button id="button-tel" title="Teléfono">   
+                            ☎
+                        </button>
+                        <button id="button-email" title="Email"> 
+                            ✉
+                        </button>
+                        <button id="button-address" title="Ubicación">  
+                            ⦿
+                        </button>
+                        <button id="button-portfolio" title="Portfolio">   
+                            ❏
+                        </button>
+                        <!--Datos de contacto-->
+                        <section>
+                            <span id="target-email" class="inactive">
+                                soledadmar@sucorreo.com
+                            </span>
+                            <span id="target-address" class="inactive">
+                                Belgrano, CABA
+                            </span>
+                            <span id="target-tel" class="inactive">
+                                (011) 2535 4252
+                            </span>
+                            <span id="target-portfolio" class="inactive">
+                                solmardesign.com.ar
+                            </span>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="databox">
+            <h2>Educación</h2>
+            <dl>
+                <dt>Fotógrafa Profesional, Academia de Fotografía de Belgrano</dt>
+                <dd>2015-2016</dd>
+
+                <dt>Diseñadora Gráfica, Universidad de Palermo</dt>
+                <dd>2012-2015</dd>
+
+                <dt>Bachiller en Artes Visuales, Nuestra Señora Inventada (CABA)</dt>
+                <dd>Secundario completo, finalizado en 2011</dd>
+            </dl>
+        </div>
+
+        <div class="databox">
+            <div class="responsivebox" style="grid-template-columns: 55% 35%;">  
+                <div>
+                    <h2>Cursos Complementarios</h2>
+                    <ul>
+                        <li>Tarjetería</li>
+                        <li>Caligrafía</li>
+                        <li>Imprenta</li>
+                        <li>Asesoramiento de Imagen</li>
+                        <li>Introducción a Diseño Web</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Idiomas</h2>
+                    <ul>
+                        <li>Castellano (nativo)</li>
+                        <li>Portugués (intermedio)</li>
+                        <li>Inglés (intermedio)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="databox">
+            <h2>Experiencia Laboral</h2>
+            <dl>
+                <dt>Diseñadora Gráfica para la Revista "Deco Argentina" (2014-presente)</dt>
+                <dd>
+                    Diseñadora a cargo de la sección de "Tips, Tips, Tips" (2014-2015), actualmente parte del equipo de diseñadores a cargo de todo el contenido de tanto la revista física como la versión virtual que puede hallarse en "revistadeco.ar".
+                </dd>
+
+                <dt>Fotografa Freelance para eventos varios (2016-presente)</dt>
+                <dd>
+                    Fotografa de diversos eventos como bodas tradicionales y por civil, cumpleaños, egresos, fiestas privadas y otros. Consultar disponibilidad.
+                </dd>
+                
+                <dt>Fotografa de artículos de indumentaria para QueBonito © (2022)</dt>
+                <dd>
+                    Fotografa para la marca de ropa QueBonito (Buenos Aires, Argentina), a cargo de un set de fotos para su colección Primavera-Verano 2022 de vestidos, accesorios y zapatos.
+                </dd>
+
+                <dt>Fotografa para la página web "Mujer Argentina" (2018-2019)</dt>
+                <dd>
+                    Fotografa a cargo de la sección "Mujer de la semana" en la cual se entrevistaba a mujeres de diversos origenes y colectividades para que cuenten su historia de vida.
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+    <!--Scripts para cambio de tema y botones de contacto-->
+    <script src="JS/tema.js"></script>
+    <script src="JS/contacto.js"></script>
+</body>
+</html>
