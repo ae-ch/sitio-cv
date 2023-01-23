@@ -13,7 +13,7 @@ Material de referencia utilizado:
 > https://www.w3schools.com/
 
 Sitios web de los cuales se generaron y/o descargaron imágenes.
-> **Foto de perfil:** https://www.pexels.com/photo/closeup-photo-of-smiling-woman-wearing-blue-denim-jacket-1130626/
+> **Foto de perfil:** [https://www.pexels.com/](https://www.pexels.com/photo/closeup-photo-of-smiling-woman-wearing-blue-denim-jacket-1130626/)
 >
 > **Fondo de sitio:** https://www.transparenttextures.com/
 >
