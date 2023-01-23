@@ -3,7 +3,7 @@
 
 **Desarollo de Sitio:** para cumplir con todos los requisitos del final (utilizar HTML, CSS y JS) se dividió el proyecto en varios partes y se evaluó cómo resultaba más conveniente implementar cada una de estas herramientas en un CV.
 
-**[Sitio CV (Live Preview)](https://ae-ch.github.io/)**
+**[Sitio CV (Live Preview)](https://ae-ch.github.io/sitio-cv/)**
 > **Importante:** Todos los datos que se encuentran actualmente en el sitio son ficticios.
 
 ## Fuentes:
